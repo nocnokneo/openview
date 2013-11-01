@@ -18,6 +18,9 @@
 #  This script is based on https://github.com/Kitware/openview/wiki/Build-instructions
 #  and has been tested on Ubuntu 12.04 32 bit and 64 bit.
 
+# Halt on errors
+set -e
+
 ###### install dependencies, answering yes to all queries of "really install this?"
 sudo apt-get install -y cmake cmake-curses-gui mesa-common-dev freeglut3-dev  g++ git libxcb1 libxcb1-dev libx11-xcb1 libx11-xcb-dev libxcb-keysyms1 libxcb-keysyms1-dev libxcb-image0 libxcb-image0-dev libxcb-shm0 libxcb-shm0-dev libxcb-icccm4 libxcb-icccm4-dev libxcb-sync0 libxcb-sync0-dev libxcb-xfixes0-dev libxrender-dev libxcb-shape0-dev libxcb-randr0-dev libxcb-render-util0 libxcb-render-util0-dev libxcb-glx0-dev
 
